@@ -84,6 +84,7 @@ header {
   width: 190px;
   height: auto;
   flex: none;
+  margin: auto;
 }
 
 .top .txt {
