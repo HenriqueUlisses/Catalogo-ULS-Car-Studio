@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo ULS Car Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="wrap top">
+        <img src="logo.png" alt="ULS Car Studio" width="190" height="179">
+        <div class="txt">
+          <h1>Seu carro limpo, <em>sem sair de casa</em></h1>
+          <p class="lead">Lavagem de manutenção por assinatura e serviços de estética automotiva feitos na sua garagem, no seu horário. A ULS Car Studio leva equipe, produtos e equipamentos até você.</p>
+          <div class="chips">
+            <span>Atendimento na sua casa</span><span>Assinatura de 2 a 4 lavagens por mês</span><span>Parceira de concessionárias</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn" href="#planos">Ver planos de assinatura</a>
+            <a class="btn alt" href="#servicos">Ver serviços</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+
+      <section id="como-funciona">
+        <div class="eyebrow">Como funciona</div>
+        <h2>Do pedido ao carro pronto em 4 passos</h2>
+        <ol class="steps">
+          <li>
+            <strong>Escolha o plano</strong>
+            <span>Defina quantas lavagens por mês combinam com a sua rotina.</span>
+          </li>
+          <li>
+            <strong>Combine os dias</strong>
+            <span>Agendamos as datas e o horário que ficam melhores para você.</span>
+          </li>
+          <li>
+            <strong>Nós vamos até você</strong>
+            <span>Equipe com produtos e equipamentos, direto na sua casa ou garagem.</span>
+          </li>
+          <li>
+            <strong>Carro pronto</strong>
+            <span>Você confere o resultado antes de a equipe sair.</span>
+          </li>
+        </ol>
+      </section>
+
+      <section id="planos">
+        <div class="eyebrow">Assinatura mensal</div>
+        <h2>Planos de lavagem de manutenção</h2>
+        <p class="intro">Pagamento mensal. Quanto mais lavagens no mês, menor o valor de cada uma. Assinantes têm desconto nos serviços de estética.</p>
+
+        <div class="size" role="group" aria-label="Porte do veículo">
+          <button type="button" id="sz-p" aria-pressed="true">Hatch e sedã</button>
+          <button type="button" id="sz-g" aria-pressed="false">SUV e picape</button>
+        </div>
+
+        <div class="plans" id="plans"></div>
+
+        <p class="note" id="plan-note"></p>
+      </section>
+
+      <section id="servicos">
+        <div class="eyebrow">Serviços</div>
+        <h2>Estética automotiva completa</h2>
+        <p class="intro">Além da assinatura, fazemos os serviços de proteção e recuperação do seu carro. Os valores “a partir de” são confirmados conforme o veículo e o estado da pintura.</p>
+
+        <div class="group">
+          <h3>Lavagens</h3>
+          <div class="grid">
+            <article class="svc">
+              <h3>Lavagem de manutenção</h3>
+              <p>Lavagem externa cuidadosa, aspiração interna, limpeza de vidros e acabamento nos pneus. Ideal para manter o carro em dia.</p>
+              <div class="meta">
+                <span>A partir de</span>
+                <b>R$ 100 hatch e sedã<br>R$ 120 SUV e picape</b>
+              </div>
+            </article>
+
+            <article class="svc">
+              <h3>Lavagem técnica</h3>
+              <p>Descontaminação da pintura (ferro e piche), remoção de resíduos e aplicação de proteção. Prepara o carro para polimento ou vitrificação.</p>
+              <div class="meta">
+                <span>A partir de</span>
+                <b>R$ 250</b>
+              </div>
+            </article>
+
+            <article class="svc">
+              <h3>Lavagem técnica detalhada</h3>
+              <p>A mais completa: lavagem técnica somada à limpeza minuciosa de painel, portas, borrachas, caixas de roda e frestas, por dentro e por fora.</p>
+              <div class="meta">
+                <span>A partir de</span>
+                <b>R$ 400</b>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="group">
+          <h3>Proteção e brilho</h3>
+          <div class="grid">
+            <article class="svc">
+              <h3>Polimento</h3>
+              <p>Remove riscos finos, marcas de lavagem e oxidação, devolvendo profundidade e brilho à pintura.</p>
+              <div class="meta">
+                <span>Valor</span><b>Sob orçamento</b>
+              </div>
+            </article>
+
+            <article class="svc">
+              <h3>Vitrificação</h3>
+              <p>Camada cerâmica que protege contra sol, chuva ácida e sujeira, facilita a lavagem e realça o brilho por muito mais tempo.</p>
+              <div class="meta">
+                <span>Valor</span>
+                <b>Sob orçamento</b>
+              </div>
+            </article>
+
+            <article class="svc">
+              <h3>PPF</h3>
+              <p>Película de proteção de pintura contra pedras, riscos e arranhões, aplicada em partes específicas ou no carro todo.</p>
+              <div class="meta">
+                <span>Valor</span>
+                <b>Sob orçamento</b>
+              </div>
+            </article>
+            
+            <article class="svc">
+              <h3>Insulfilm</h3>
+              <p>Película nos vidros para reduzir calor e claridade e dar mais privacidade, respeitando a legislação vigente.</p>
+              <div class="meta">
+                <span>Valor</span>
+                <b>Sob orçamento</b>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="group">
+          <h3>Outros serviços</h3>
+          <div class="grid">
+            <article class="svc">
+              <h3>Higienização interna</h3>
+              <p>Limpeza profunda de bancos, carpetes e teto, com remoção de manchas e odores.</p>
+              <div class="meta">
+                <span>Valor</span>
+                <b>Sob orçamento</b>
+              </div>
+            </article>
+            
+            <article class="svc">
+              <h3>Hidratação de couro</h3>
+              <p>Limpeza e hidratação dos bancos de couro para manter a maciez e evitar ressecamento.</p>
+              <div class="meta">
+                <span>Valor</span>
+                <b>Sob orçamento</b>
+              </div>
+            </article>
+            
+            <article class="svc">
+              <h3>Restauração de faróis</h3>
+              <p>Polimento e proteção de faróis amarelados ou opacos, para melhorar a aparência e a visibilidade.</p>
+              <div class="meta">
+                <span>Valor</span>
+                <b>Sob orçamento</b>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contato">
+        <h2>Peça seu orçamento ou assine hoje</h2>
+        <p>Chame no WhatsApp, conte qual é o seu carro e o que você precisa. Respondemos com valor e datas disponíveis.</p>
+        <div class="cta-row" id="wa-list"></div>
+      </section>
+
+    </main>
+
+    <footer class="wrap">ULS Car Studio · Valores e condições sujeitos a confirmação conforme o porte do veículo e a região de atendimento.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
